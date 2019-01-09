@@ -6,8 +6,8 @@ class TestDice(unittest.TestCase):
 
 	def setUp(self):
 		print("Setting up test...")
-		self.dice1=Dice("Bob")
-		self.dice2=Dice("Rob")
+		self.dice1=Dice("Bob", 6)
+		self.dice2=Dice("Rob", 6)
 		self.dice3=Dice(23)
 
 	def tearDown(self):
