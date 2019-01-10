@@ -3,6 +3,10 @@ import random
 
 class Dice(object):
 
+	"""
+	Added sides on 1/9
+	"""
+
 	def __init__(self, name, sides=6):
 		self._name=name
 		self._sides=sides
